@@ -1,0 +1,21 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+.links, a, a:hover {
+    color: #13120E;
+    font-weight: 700;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+.nav {
+    background-color: #e0c9a8;
+    align-items: center;
+    padding: 12px 20px;
+}
