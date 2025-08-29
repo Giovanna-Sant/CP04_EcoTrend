@@ -30,3 +30,8 @@ ul, .row {
     list-style: none;
     align-items: center
 }
+
+/* texto em negrito, usar na tag do <span> */
+.bold {
+    font-weight: 800;
+}
