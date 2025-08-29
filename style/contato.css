@@ -1,0 +1,45 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.form-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 700px;
+}
+
+.btn-custom {
+  background: #6B2D14;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 25px;
+  transition: background 0.3s ease;
+}
+
+.btn-custom:hover {
+  background: #924429;
+}
+
+.footer h6 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #2c3e50;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #6B2D14;
+}
