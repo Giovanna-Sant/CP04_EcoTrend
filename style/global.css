@@ -11,11 +11,22 @@ body {
     color: #13120E;
     font-weight: 700;
     padding-right: 25px;
-    font-size: 20px;
+    /* font-size: 18px; */
 }
 
 .nav {
     background-color: #e0c9a8;
     align-items: center;
     padding: 12px 20px;
+}
+
+.footer {
+    background-color: #e0c9a8;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+ul, .row {
+    list-style: none;
+    align-items: center
 }
