@@ -17,12 +17,12 @@ body {
 .nav {
     background-color: #e0c9a8;
     align-items: center;
-    padding: 12px 20px;
+    padding: 12px 64px;
 }
 
 .footer {
     background-color: #e0c9a8;
-    padding: 20px;
+    padding: 20px 64px;
     margin-top: 40px;
 }
 
