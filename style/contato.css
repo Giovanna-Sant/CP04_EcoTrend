@@ -5,7 +5,7 @@ body {
 
 h2 {
   font-weight: 700;
-  color: #2c3e50;
+  color: #13120E;;
 }
 
 .form-container {
@@ -32,14 +32,4 @@ h2 {
 .footer h6 {
   font-weight: 600;
   margin-bottom: 10px;
-}
-
-.footer a {
-  text-decoration: none;
-  color: #2c3e50;
-  transition: color 0.3s ease;
-}
-
-.footer a:hover {
-  color: #6B2D14;
 }

@@ -1,5 +1,6 @@
 body {
-    font-family: "DM Sans", sans-serif;
+    font-family: "DM Sans", sans-serif !important;    
+    color: #13120E;
     font-optical-sizing: auto;
     font-style: normal;
     background-color: #f8f8f8;
@@ -28,10 +29,14 @@ body {
 
 ul, .row {
     list-style: none;
-    align-items: center
 }
 
 /* texto em negrito, usar na tag do <span> */
 .bold {
     font-weight: 800;
+}
+
+.btn {
+    background-color: #626C38;
+    border: none;
 }
