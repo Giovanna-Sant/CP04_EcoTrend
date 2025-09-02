@@ -11,12 +11,12 @@ Nosso objetivo é **promover um estilo de vida mais consciente e sustentável**,
 
 ## 🖥️ Estrutura do Projeto  
 
-🔹 Header
-🔹 Página Inicial (Home) 
-🔹 Página de Categorias
-🔹 Página de Detalhes do Produto 
-🔹 Página de Contato 
-🔹 Footer  
+- Header
+- Página Inicial (Home) 
+- Página de Categorias
+- Página de Detalhes do Produto
+- Página de Contato
+- Footer  
 ---
 
 ## 🛠️ Tecnologias Utilizadas  
