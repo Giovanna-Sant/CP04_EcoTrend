@@ -1,6 +1,6 @@
 # 🌱 EcoTrend - E-commerce Sustentável  
 
-<img src="./assets/img1.png" alt="Banner EcoTrend" height="180"/> <img src="./assets/img2.png" alt="Banner EcoTrend" height="180"/> <img src="./assets/img3.png" alt="Banner EcoTrend" height="180"/>
+<img src="./assets/img1.png" alt="Banner EcoTrend" height="150"/> <img src="./assets/img2.png" alt="Banner EcoTrend" height="150"/> <img src="./assets/img3.png" alt="Banner EcoTrend" height="150"/>
 
 ## 📌 Sobre o Projeto  
 O **EcoTrend** é um e-commerce especializado em produtos sustentáveis e ecológicos, desenvolvido como parte do **Check-Point 04** da disciplina de **Front-end Design** no curso de **Engenharia de Software**.  
