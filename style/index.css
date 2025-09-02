@@ -3,10 +3,6 @@
     padding-bottom: 9px;
 }
 
-.intro-info {
-    max-width: 35%;
-}
-
 .card {
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -26,4 +22,3 @@
 #carouselExampleIndicators {
     margin-top: 40px;
 }
-

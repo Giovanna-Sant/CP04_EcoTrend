@@ -1,6 +1,6 @@
+ 
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="style/categorias.css">
     <title>Categorias</title>
 </head>
-
 <body>
     <!-- header/nav -->
     <ul class="nav justify-content-between">
@@ -34,103 +33,134 @@
             </span>
         </li>
     </ul>
-    <main>
-        <h1 class="titulo">Conheça nossos Extratos:</h1>
-
-        <div class="filtro-categorias">
-            <!-- filtro de escolha de categorias -->
-            <div class="categoria-links">
-                <a href="#camu">Camu Camu</a>
-                <a href="#aguaje">Aguaje</a>
-                <a href="#sacha">Sacha Inchi</a>
+    <main class="container mt-4">
+        <div class="row">
+            <!-- filtros laterais -->
+            <aside class="col-md-3 mb-4">
+                <div class="card p-3">
+                    <h5>Filtrar por</h5>
+                    <div class="mb-3">
+                        <h6>Preço</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="preco1">
+                            <label class="form-check-label" for="preco1">Até R$50</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="preco2">
+                            <label class="form-check-label" for="preco2">R$50 - R$100</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="preco3">
+                            <label class="form-check-label" for="preco3">Acima de R$100</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <h6>Tipo de Produto</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="tipo1">
+                            <label class="form-check-label" for="tipo1">Extratos</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="tipo2">
+                            <label class="form-check-label" for="tipo2">Hidratantes</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <h6>Marca</h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="marca1">
+                            <label class="form-check-label" for="marca1">EcoSkin</label>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <!-- CONTEÚDO PRINCIPAL -->
+            <div class="col-md-9">
+                <h1 class="titulo">Conheça nossos Extratos:</h1>
+                <!-- camu-camu - categoria1 -->
+                <section class="categoria">
+                    <h2 class="categoria-titulo" id="camu">Extrato Camu Camu</h2>
+                    <div class="banner">
+                        <img src="assets/card1.png" alt="Banner Categorias">
+                    </div>
+                    <div class="produtos-grid">
+                        <div class="produto-categoria">
+                            <img src="assets/prod1.png" alt="Produto Camu 1">
+                            <h3>Creme Hidratante Camu</h3>
+                            <p class="preco">R$ 49,90</p>
+                            <button class="botao-carrinho">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="produto-categoria">
+                            <img src="assets/camu_camu2.png" alt="Produto Camu 2">
+                            <h3>Creme Hidratante Camu</h3>
+                            <p class="preco">R$ 69,90</p>
+                            <button class="botao-carrinho">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="produto-categoria">
+                            <img src="assets/camu_camu_3.png" alt="Produto Camu 3">
+                            <h3>Creme Hidratante Camu</h3>
+                            <p class="preco">R$ 19,90</p>
+                            <button class="botao-carrinho">Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </section>
+                <!-- aguaje - categoria2 -->
+                <section class="categoria">
+                    <h2 class="categoria-titulo" id="aguaje">Extrato de Aguaje</h2>
+                    <div class="banner">
+                        <img src="assets/card2.png" alt="Banner Categorias">
+                    </div>
+                    <div class="produtos-grid">
+                        <div class="produto-categoria">
+                            <img src="assets/prod2.png" alt="Produto Aguaje 1">
+                            <h3>Creme Hidratante Aguaje</h3>
+                            <p class="preco">R$ 39,90</p>
+                            <button class="botao-carrinho">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="produto-categoria">
+                            <img src="assets/aguaje_2.png" alt="Produto Aguaje 2">
+                            <h3>Creme Hidratante Aguaje</h3>
+                            <p class="preco">R$ 44,90</p>
+                            <button class="botao-carrinho">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="produto-categoria">
+                            <img src="assets/aguaje_3.png" alt="Produto Aguaje 3">
+                            <h3>Creme Hidratante Aguaje</h3>
+                            <p class="preco">R$ 59,90</p>
+                            <button class="botao-carrinho">Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </section>
+                <!-- sacha inchi - categoria3-->
+                <section class="categoria">
+                    <h2 class="categoria-titulo" id="sacha">Extrato de Sacha Inchi</h2>
+                    <div class="banner">
+                        <img src="assets/card3.png" alt="Banner Categorias">
+                    </div>
+                    <div class="produtos-grid">
+                        <div class="produto-categoria">
+                            <img src="assets/img4.png" alt="Produto Sacha Inchi 1">
+                            <h3>Creme Hidratante Sacha Inchi</h3>
+                            <p class="preco">R$ 54,90</p>
+                            <button class="botao-carrinho">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="produto-categoria">
+                            <img src="assets/prod3.png" alt="Produto Sacha Inchi 2">
+                            <h3>Creme Hidratante Sacha Inchi</h3>
+                            <p class="preco">R$ 64,90</p>
+                            <button class="botao-carrinho">Adicionar ao carrinho</button>
+                        </div>
+                        <div class="produto-categoria">
+                            <img src="assets/sacha_inchi_2.png" alt="Produto Sacha Inchi 3">
+                            <h3>Creme Hidratante Sacha Inchi</h3>
+                            <p class="preco">R$ 24,90</p>
+                            <button class="botao-carrinho">Adicionar ao carrinho</button>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
-
-        <!-- camu-camu - categoria1 -->
-        <section class="categoria">
-            <h2 class="categoria-titulo" id="camu">Extrato Camu Camu</h2>
-            <div class="banner">
-                <img src="assets/card1.png" alt="Banner Categorias">
-            </div>
-            <div class="produtos-grid">
-                <div class="produto-categoria">
-                    <img src="assets/prod1.png" alt="Produto Camu 1">
-                    <h3>Creme Hidratante Camu</h3>
-                    <p class="preco">R$ 49,90</p>
-                    <button class="botao-carrinho">Adicionar ao carrinho</button>
-                </div>
-                <div class="produto-categoria">
-                    <img src="assets/camu_camu2.png" alt="Produto Camu 2">
-                    <h3>Sabonete Facial Camu</h3>
-                    <p class="preco">R$ 69,90</p>
-                    <button class="botao-carrinho">Adicionar ao carrinho</button>
-                </div>
-                <div class="produto-categoria">
-                    <img src="assets/camu_camu_3.png" alt="Produto Camu 3">
-                    <h3>Esfoliante Suave Camu</h3>
-                    <p class="preco">R$ 19,90</p>
-                    <button class="botao-carrinho">Adicionar ao carrinho</button>
-                </div>
-            </div>
-        </section>
-
-        <!-- aguaje - categoria2 -->
-        <section class="categoria">
-            <h2 class="categoria-titulo" id="aguaje">Extrato de Aguaje</h2>
-            <div class="banner">
-                <img src="assets/card2.png" alt="Banner Categorias">
-            </div>
-            <div class="produtos-grid">
-                <div class="produto-categoria">
-                    <img src="assets/aguaje_2.png" alt="Produto Aguaje 1">
-                    <h3>Sabonete Facial Aguaje</h3>
-                    <p class="preco">R$ 44,90</p>
-                    <button class="botao-carrinho">Adicionar ao carrinho</button>
-                </div>
-                <div class="produto-categoria">
-                    <img src="assets/aguaje_3.png" alt="Produto Aguaje 2">
-                    <h3>Esfoliante Suave Aguaje</h3>
-                    <p class="preco">R$ 59,90</p>
-                    <button class="botao-carrinho">Adicionar ao carrinho</button>
-                </div>
-                <div class="produto-categoria">
-                    <img src="assets/prod2.png" alt="Produto Aguaje 3">
-                    <h3>Creme Hidratante Aguaje</h3>
-                    <p class="preco">R$ 39,90</p>
-                    <button class="botao-carrinho">Adicionar ao carrinho</button>
-                </div>
-            </div>
-        </section>
-
-        <!-- sacha inchi - categoria3-->
-        <section class="categoria">
-            <h2 class="categoria-titulo" id="sacha">Extrato de Sacha Inchi</h2>
-            <div class="banner">
-                <img src="assets/card3.png" alt="Banner Categorias">
-            </div>
-            <div class="produtos-grid">
-                <div class="produto-categoria">
-                    <img src="assets/img4.png" alt="Produto Sacha Inchi 1">
-                    <h3>Esfoliante Suave Sacha Inchi</h3>
-                    <p class="preco">R$ 54,90</p>
-                    <button class="botao-carrinho">Adicionar ao carrinho</button>
-                </div>
-                <div class="produto-categoria">
-                    <img src="assets/prod3.png" alt="Produto Sacha Inchi 2">
-                    <h3>Creme Hidratante Sacha Inchi</h3>
-                    <p class="preco">R$ 64,90</p>
-                    <button class="botao-carrinho">Adicionar ao carrinho</button>
-                </div>
-                <div class="produto-categoria">
-                    <img src="assets/sacha_inchi_2.png" alt="Produto Sacha Inchi 3">
-                    <h3>Sabonete Facial Sacha Inchi</h3>
-                    <p class="preco">R$ 24,90</p>
-                    <button class="botao-carrinho">Adicionar ao carrinho</button>
-                </div>
-            </div>
-        </section>
     </main>
-
     <!-- footer -->
     <div class="footer">
         <div class="row">
@@ -161,5 +191,5 @@
         </div>
     </div>
 </body>
-
 </html>
+ 

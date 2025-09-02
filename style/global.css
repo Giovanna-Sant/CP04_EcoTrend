@@ -36,7 +36,8 @@ ul, .row {
     font-weight: 800;
 }
 
-.btn {
-    background-color: #626C38;
-    border: none;
+.btn-success {
+    background-color: #626C38 !important;
+    border: none !important;
+    box-shadow: none  !important
 }
